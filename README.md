@@ -2,7 +2,7 @@
 
 ## Exercícios de algoritmo com Portugol Studio
 
-***
+
  ## Programação de Computadores em Portugol (Protuguês Estruturado) 
 
 
