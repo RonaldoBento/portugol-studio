@@ -1,28 +1,26 @@
-programa {
+programa {
 
-	//Faça um algoritmo que leia um determinado ano e mostre se ele é ou não BISSEXTO.
+	// Teste de Condição Simples 
+	funcao inicio() {
 
-	funcao inicio(){
-
-		escreva("\n===================================================\n")
-		escreva(" \t Será que o Ano é Bissexto? ")
-		escreva("\n===================================================\n")
+		inteiro a, b, c
 		
-		inteiro ano
+		escreva("\n===================================================\n")
+		escreva(" \t Teste de Condição Simples  ")
+		escreva("\n===================================================\n")
 
-		ano = 0	
-
-		escreva ("\n Informe o ano, para saber se ele é Bissesto: ")
-		leia (ano)
-
-			se ( ano % 4 == 0 e ano % 100 == 0 ou ano % 400 == 0) 
-			{
-				escreva(" O ano: ", ano, " é Bissexto!\n")
-			}
-			senao
-			{
-				escreva(" O ano: ", ano, " não é Bissexto!\n")
-			}
+		escreva("\n Entre com o 1o. valor: ")
+		leia(a)
+		
+		escreva(" Entre com o 2o. valor: ")
+		leia(b)
+		
+		se (a > b){
+			c = a
+			a = b
+			b = c
+		}
+		escreva(" Os valores digitados sao: ", a, " e ", b, ".\n")
 	}
 }
 
@@ -31,7 +29,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 327; 
+ * @POSICAO-CURSOR = 376; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
