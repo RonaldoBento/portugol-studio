@@ -1,6 +1,6 @@
-programa {
+programa {
 
-	/* Faça um programa que leia a largura e o comprimento de um terreno
+	/* Faça um programa que leia a largura e o comprimento de um terreno
 	   retangular, calculando e mostrando a sua área em m². O programa também
 	   devemostrar a classificação desse terreno, de acordo com a lista abaixo:
 	   - Abaixo de 100m² = TERRENO POPULAR
@@ -8,7 +8,7 @@ programa {
  	   - Acima de 500m² = TERRENO VIP*/
 
 	inclua biblioteca Matematica --> m
-	funcao inicio() {
+	funcao vazio inicio() {
 
 		real l, c, area
 			
@@ -43,7 +43,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 547; 
+ * @POSICAO-CURSOR = 417; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
