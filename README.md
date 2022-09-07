@@ -3,16 +3,16 @@
 ## Exercícios de algoritmo com Portugol Studio
 
 
- ## Programação de Computadores em Portugol (Protuguês Estruturado) 
+ ## Programação de Computadores em Portugol (Português Estruturado) 
 
 
-<br><img src="logo.jpg" alt="logo python no formato png">
+<br><img src="logo.jpg" alt="logo portugol-studio no formato jpeg">
 
-<br><p>Uma linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras sintáticas e semânticas usadas paradefinir um programa de computador. Permite que um programador especifique precisamente sobre quais dados um computador vai atuar, como estes dados serãoarmazenados ou transmitidos e quais ações devem ser tomadas sob várias circunstâncias.
+<br><p>Uma linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras sintáticas e semânticas usadas para definir um programa de computador. Permite que um programador especifique precisamente sobre quais dados um computador vai atuar, como estes dados serão armazenados ou transmitidos e quais ações devem ser tomadas sob várias circunstâncias.
 
-O _**Portugol**_ é uma representação que se assemelha bastante com a linguagem C, porém é escrito em português. A ideia é facilitar a construção e a leitura dos algoritmos usando uma linguagem mais fácil aos alunos. Esta linguagem direta e simples contendo instruções para uso do ambiente de programação Portugol Studio, favorável ao ensino de lógica de programação de computadores para as aulas de: Lógica de Programação e Algoritmos ao fazer uso de uma versão de linguagem de programação codificada em português estruturado.
+O _**Portugol**_ é uma representação que se assemelha bastante com a linguagem _**C**_, porém é escrito em português. A ideia é facilitar a construção e a leitura dos algoritmos usando uma linguagem mais fácil aos alunos. Esta linguagem direta e simples contendo instruções para uso do ambiente de programação Portugol Studio, favorável ao ensino de lógica de programação de computadores para as aulas de: Lógica de Programação e Algoritmos ao fazer uso de uma versão de linguagem de programação codificada em português estruturado.
 
-Neste trabalho são abordados os recursos para definição e uso de: variáveis, constantes, operadores aritméticos, expressões aritméticas, operação de entrada, operação de processamento, operação de saída, uso de condições, tomada de decisão, operadores relacionais, operadores lógicos, laços, variáveis indexadas (matrizes), subrotinas e passagens de parâmetro.</p><br>
+Neste projeto são abordados os recursos para definição e uso de: variáveis (globais e locais), constantes, operadores aritméticos, expressões aritméticas, operação de entrada, operação de processamento, operação de saída, uso de condições, tomada de decisão, operadores relacionais, operadores lógicos, laços, variáveis indexadas (matrizes), subrotinas (funções) e passagens de parâmetro.</p><br>
 
 ** Exemplos de códigos:
 
@@ -28,7 +28,7 @@ programa {
 
 	inclua biblioteca Matematica --> m
 	 
-	funcao inicio() {
+	funcao vazio inicio() {
 
 		escreva("\n-------------------------------------------\n")
 		escreva(" \t  Aproveitamento do Aluno")
@@ -55,14 +55,12 @@ programa {
 		escreva("\n A média do aluno foi de ", m.arredondar(media,3),"\n")
 		se (media >= 7) {
 			escreva(" Aluno Aprovado com a média: ", m.arredondar(media,3), "\n")
-		} senao {
-			se (media >= 5 e media < 7) {
+		} senao se (media >= 5 e media < 7) {
 				escreva(" Aluno de Recuperação com a média: ", m.arredondar(media,3), "\n")
 			} senao {
 				escreva(" Aluno Reprovado com a média: ", m.arredondar(media,3), "\n")
 			}
-		}
-		
+			
 	}		
 }
 
@@ -79,7 +77,7 @@ programa {
 	
 	inclua biblioteca Util --> u 
 	
-	funcao inicio(){
+	funcao vazio inicio() {
 		
 		inteiro numero_digitado, numero_sorteado
 		
@@ -109,7 +107,8 @@ programa {
 
 ## IMPORTANTE:
  
+ Neste projeto, estou promovendo mais de 150 exercícios de algoritmo.
 
  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/portugol-studio/blob/main/LICENSE) 
  
- <p>Você tem todo o direito de usar esse material para seu próprio aprendizado. Espero que seja útil o conteúdo disponibilizado.</p><br>
+ <p>Você tem todo o direito de usar esse material para seu próprio aprendizado. Espero que seja útil o conteúdo disponibilizado. É preciso instalar o programa Portugol Studio.</p><br>
