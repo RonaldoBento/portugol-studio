@@ -14,11 +14,12 @@ programa {
     inteiro i, j, copia, troca = 0, tamanho = 15, vet[50]
 
      escreva("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-\n")
-	escreva("\t\t Algoritmo de Ordenação - bubble sort ") 	
+	escreva("\t\t Algoritmo de Ordenação - Bubble Sort ") 	
      escreva("\n-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n")
     
 
-
+	// Leitura dos dados - Gerar números aleatorios entre 0 e 100
+	
     para(i = 0; i < tamanho; i++) {
     	 vet[i] = u.sorteia(1, 100)
     }
@@ -27,7 +28,7 @@ programa {
     	  escreva(vet[i], " , ")
     }
         
-    faca {
+    faca { // Ordenação
       troca = 0
       para(i = 0; i < tamanho - 1; i++) {
         se(vet[i] > vet[i + 1]) {
@@ -39,6 +40,7 @@ programa {
       }
     } enquanto(troca == 1)
 
+	// Impressão dos dados ordenados
     escreva("\n")
     para(i = 0; i < tamanho; i++) {
     		escreva(vet[i], " , ")
@@ -51,7 +53,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1146; 
+ * @POSICAO-CURSOR = 701; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
