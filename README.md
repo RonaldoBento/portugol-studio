@@ -8,9 +8,13 @@
 
 <br><img src="logo.jpg" alt="logo portugol-studio no formato jpeg">
 
-<br><p>Uma linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras sintáticas e semânticas usadas para definir um programa de computador. Permite que um programador especifique precisamente sobre quais dados um computador vai atuar, como estes dados serão armazenados ou transmitidos e quais ações devem ser tomadas sob várias circunstâncias.
+<br><p>Uma linguagem de programação é um método padronizado para comunicar instruções para um computador. É um conjunto de regras <strong>sintáticas</strong> e <strong>semânticas</strong> usadas para definir um programa de computador. Permite que um programador especifique precisamente sobre quais dados um computador vai atuar, como estes dados serão armazenados ou transmitidos e quais ações devem ser tomadas sob várias circunstâncias.
 
-O _**Portugol**_ é uma representação que se assemelha bastante com a linguagem _**C**_, porém é escrito em português. A ideia é facilitar a construção e a leitura dos algoritmos usando uma linguagem mais fácil aos alunos. Esta linguagem direta e simples contendo instruções para uso do ambiente de programação Portugol Studio, favorável ao ensino de lógica de programação de computadores para as aulas de: Lógica de Programação e Algoritmos ao fazer uso de uma versão de linguagem de programação codificada em português estruturado.
+O Portugol é uma representação que se assemelha bastante com a linguagem <strong>C</strong>, porém é escrito em português. A ideia é facilitar a construção e a leitura dos algoritmos usando uma linguagem mais fácil aos alunos. Esta linguagem direta e simples contendo instruções para uso do ambiente de programação Portugol Studio, favorável ao ensino de lógica de programação de computadores para as aulas de: Lógica de Programação e Algoritmos ao fazer uso de uma versão de linguagem de programação codificada em português estruturado.
+
+O Portugol Studio foi desenvolvido na linguagem <strong>Java</strong>. A primeira versão do Portugol Studio começou a ser utilizada em 2011 dentro da <strong><em>UNIVALI</em></strong> (Universidade do Vale do Itajaí), instituição do Laboratório de Inovação
+Tecnológica na Educação (LITE) onde a plataforma foi criada pelo programador <em>
+Luiz Fernando Noschang.</em>
 
 Neste projeto são abordados os recursos para definição e uso de: variáveis (globais e locais), constantes, operadores aritméticos, expressões aritméticas, operação de entrada, operação de processamento, operação de saída, uso de condições, tomada de decisão, operadores relacionais, operadores lógicos, laços, variáveis indexadas (matrizes), subrotinas (funções) e passagens de parâmetro.</p><br>
 
@@ -277,7 +281,7 @@ programa {
 
 ## IMPORTANTE:
  
- Neste projeto, estou promovendo mais de 150 exercícios de algoritmo.
+ Neste projeto, estou promovendo mais de 200 exercícios de algoritmo.
 
  [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RonaldoBento/portugol-studio/blob/main/LICENSE) 
  
